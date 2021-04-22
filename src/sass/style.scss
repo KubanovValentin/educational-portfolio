@@ -1,6 +1,8 @@
 @import 'libs/bootstrap-reboot.min';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 
+@import 'libs/bootstrap-reboot.min';
+
 
 @import './base/variables';
 @import './base/mixins';
@@ -24,6 +26,10 @@
     margin: 25px auto 0 auto;
 }
 
+p {
+    margin: 0;
+}
+
 
 @import './blocks/promo';
 @import './blocks/title';
@@ -32,3 +38,4 @@
 @import './blocks/menu';
 @import './blocks/about';
 @import './blocks/resume';
+@import './blocks/skills';
